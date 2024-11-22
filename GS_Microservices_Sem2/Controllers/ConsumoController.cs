@@ -21,22 +21,27 @@ namespace GS_Microservices_Sem2.Controllers
         }
 
         [HttpPost]
-        public IActionResult SalvarConsumo([FromBody] Consumo consumo)
+        public async Task<IActionResult> SalvarConsumo([FromBody] Consumo consumo)
         {
             if (string.IsNullOrEmpty(consumo.NomeAparelho) || consumo.ConsumoMedio <= 0)
             {
                 return BadRequest("Os campos 'NomeAparelho' e 'ConsumoMedio' são obrigatórios e válidos.");
             }
 
-            _consumoCollection.InsertOne(consumo);
+            await _consumoCollection.InsertOneAsync(consumo);
+
+            const string cacheKey = "Consumos";
+            var consumos = await _consumoCollection.Find(_ => true).ToListAsync();
+            await _redisDatabase.StringSetAsync(cacheKey, JsonConvert.SerializeObject(consumos), TimeSpan.FromMinutes(5)); // Armazenar em cache de forma assíncrona
+
             return Created($"/consumo/{consumo.Id}", consumo);
         }
 
         [HttpGet]
-        public IActionResult ObterConsumos()
+        public async Task<IActionResult> ObterConsumos()
         {
             const string cacheKey = "Consumos";
-            var cachedData = _redisDatabase.StringGet(cacheKey);
+            var cachedData = await _redisDatabase.StringGetAsync(cacheKey);
 
             if (!string.IsNullOrEmpty(cachedData))
             {
@@ -44,18 +49,30 @@ namespace GS_Microservices_Sem2.Controllers
                 return Ok(consumosCache);
             }
 
-            var consumos = _consumoCollection.Find(_ => true).ToList();
+            var consumos = await _consumoCollection.Find(_ => true).ToListAsync();
             if (!consumos.Any())
             {
                 return NotFound("Nenhum consumo registrado.");
             }
 
-            _redisDatabase.StringSet(cacheKey, JsonConvert.SerializeObject(consumos), TimeSpan.FromMinutes(5));
+            await _redisDatabase.StringSetAsync(cacheKey, JsonConvert.SerializeObject(consumos), TimeSpan.FromMinutes(5));
+
             return Ok(consumos);
         }
 
-        
+        //[HttpGet]
+        //public async Task<IActionResult> ObterConsumos()
+        //{
+        //    // Buscar os dados diretamente do MongoDB
+        //    var consumos = await _consumoCollection.Find(_ => true).ToListAsync();
 
+        //    // Verifica se existem dados
+        //    if (!consumos.Any())
+        //    {
+        //        return NotFound("Nenhum consumo registrado.");
+        //    }
 
+        //    return Ok(consumos);
+        //}
     }
 }

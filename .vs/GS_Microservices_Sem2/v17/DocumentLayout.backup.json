@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A732F2-09A8-4C5C-8208-7651AAFFD855}|Test\\Test.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\test\\consumocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A732F2-09A8-4C5C-8208-7651AAFFD855}|Test\\Test.csproj|solutionrelative:test\\consumocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\services\\imongoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\services\\imongoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\services\\mongoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\services\\mongoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\controllers\\consumocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\controllers\\consumocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\gs_microservices_sem2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\gs_microservices_sem2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\services\\redisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\models\\consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\models\\consumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|c:\\users\\mathe\\source\\repos\\gs_microservices_sem2\\gs_microservices_sem2\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BBC6B9C-E8F5-416F-BD31-7A9E099281D0}|GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj|solutionrelative:gs_microservices_sem2\\controllers\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +50,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMongoService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Services\\IMongoService.cs",
+              "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Services\\IMongoService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Services\\IMongoService.cs",
+              "RelativeToolTip": "GS_Microservices_Sem2\\Services\\IMongoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:28:37.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumoControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\Test\\ConsumoControllerTest.cs",
+              "RelativeDocumentMoniker": "Test\\ConsumoControllerTest.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\Test\\ConsumoControllerTest.cs",
+              "RelativeToolTip": "Test\\ConsumoControllerTest.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowGIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T01:09:18.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GS_Microservices_Sem2",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj",
+              "RelativeDocumentMoniker": "GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj",
+              "RelativeToolTip": "GS_Microservices_Sem2\\GS_Microservices_Sem2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-22T01:01:56.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoService.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Services\\MongoService.cs",
+              "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Services\\MongoService.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Services\\MongoService.cs",
+              "RelativeToolTip": "GS_Microservices_Sem2\\Services\\MongoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:59:49.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\appsettings.json",
               "RelativeDocumentMoniker": "GS_Microservices_Sem2\\appsettings.json",
@@ -51,39 +119,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Program.cs",
-              "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Program.cs",
-              "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Program.cs",
-              "RelativeToolTip": "GS_Microservices_Sem2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:02:17.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Consumo.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Models\\Consumo.cs",
               "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Models\\Consumo.cs",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Models\\Consumo.cs",
               "RelativeToolTip": "GS_Microservices_Sem2\\Models\\Consumo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T23:01:21.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "RedisService.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Services\\RedisService.cs",
               "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Services\\RedisService.cs",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Services\\RedisService.cs",
               "RelativeToolTip": "GS_Microservices_Sem2\\Services\\RedisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T22:56:02.258Z",
               "EditorCaption": ""
@@ -96,14 +151,27 @@
               "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Controllers\\ConsumoController.cs",
               "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Controllers\\ConsumoController.cs",
               "RelativeToolTip": "GS_Microservices_Sem2\\Controllers\\ConsumoController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T22:40:59.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Program.cs",
+              "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Program.cs",
+              "ToolTip": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Program.cs",
+              "RelativeToolTip": "GS_Microservices_Sem2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:02:17.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HealthController.cs",
               "DocumentMoniker": "C:\\Users\\mathe\\source\\repos\\GS_Microservices_Sem2\\GS_Microservices_Sem2\\Controllers\\HealthController.cs",
               "RelativeDocumentMoniker": "GS_Microservices_Sem2\\Controllers\\HealthController.cs",
