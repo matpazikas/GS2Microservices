@@ -6,8 +6,9 @@ namespace GS_Microservices_Sem2.Services
     {
         private readonly ConnectionMultiplexer _redis;
 
-        public RedisService(string connectionString)
+        public RedisService(IConfiguration configuration)
         {
+            var connectionString = configuration["RedisSettings:ConnectionString"];
             _redis = ConnectionMultiplexer.Connect(connectionString);
         }
 

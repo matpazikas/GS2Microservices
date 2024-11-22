@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<MongoService>();
-builder.Services.AddSingleton(new RedisService(builder.Configuration["RedisSettings:ConnectionString"]));
+builder.Services.AddSingleton<RedisService>();
 
 var app = builder.Build();
 

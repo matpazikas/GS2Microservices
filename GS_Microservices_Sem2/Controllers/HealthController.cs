@@ -3,7 +3,7 @@
 namespace GS_Microservices_Sem2.Controllers
 {
     [ApiController]
-    [Route("api/[health]")]
+    [Route("api/[controller]")]
     public class HealthController : ControllerBase
     {
         [HttpGet]

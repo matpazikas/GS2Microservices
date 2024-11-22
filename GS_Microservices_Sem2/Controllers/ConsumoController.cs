@@ -7,7 +7,7 @@ using GS_Microservices_Sem2.Models;
 
 namespace GS_Microservices_Sem2.Controllers
 {
-    [Route("api/[consumo]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ConsumoController : ControllerBase
     {
@@ -54,17 +54,7 @@ namespace GS_Microservices_Sem2.Controllers
             return Ok(consumos);
         }
 
-        [HttpGet("{id}")]
-        public IActionResult ObterConsumoPorId(string id)
-        {
-            var consumo = _consumoCollection.Find(c => c.Id == id).FirstOrDefault();
-            if (consumo == null)
-            {
-                return NotFound($"Consumo com o ID '{id}' não foi encontrado.");
-            }
-
-            return Ok(consumo);
-        }
+        
 
 
     }
